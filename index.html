@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JobPortal - Home</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+    <div class="container">
+        <a href="index.html" class="logo">JobPortal</a>
+        
+        <!-- Hamburger Menu (Mobile) -->
+        <div class="hamburger">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </div>
+
+        <!-- Navigation Links -->
+        <ul class="nav-menu">
+            <li class="nav-item">
+                <a href="index.html" class="nav-link active">Home</a>
+            </li>
+            <li class="nav-item">
+                <a href="jobs.html" class="nav-link">Jobs</a>
+            </li>
+            <li class="nav-item">
+                <a href="about.html" class="nav-link">About</a>
+            </li>
+            <li class="nav-item">
+                <a href="contact.html" class="nav-link">Contact</a>
+            </li>
+            <li class="nav-item cta">
+                <a href="login.html" class="nav-link">Login</a>
+            </li>
+        </ul>
+    </div>
+</nav>
+
+    <!-- Hero Section -->
+    <header class="hero">
+        <div class="container">
+            <h1>Find Your Dream Job</h1>
+            <p>Connect with top employers and showcase your skills</p>
+            <a href="jobs.html" class="btn">Browse Jobs</a>
+        </div>
+    </header>
+
+    <!-- Featured Jobs -->
+    <section class="featured-jobs">
+        <div class="container">
+            <h2>Latest Jobs</h2>
+            <div class="jobs-grid" id="featuredJobs">
+                <!-- JavaScript will load jobs here -->
+            </div>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>

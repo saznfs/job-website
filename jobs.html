@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>JobPortal - Jobs</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+   <nav class="navbar">
+    <div class="container">
+        <a href="index.html" class="logo">JobPortal</a>
+        
+        <!-- Hamburger Menu (Mobile) -->
+        <div class="hamburger">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </div>
+
+        <!-- Navigation Links -->
+        <ul class="nav-menu">
+            <li class="nav-item">
+                <a href="index.html" class="nav-link active">Home</a>
+            </li>
+            <li class="nav-item">
+                <a href="jobs.html" class="nav-link">Jobs</a>
+            </li>
+            <li class="nav-item">
+                <a href="about.html" class="nav-link">About</a>
+            </li>
+            <li class="nav-item">
+                <a href="contact.html" class="nav-link">Contact</a>
+            </li>
+            <li class="nav-item cta">
+                <a href="login.html" class="nav-link">Login</a>
+            </li>
+        </ul>
+    </div>
+</nav>
+
+    <section class="job-listings">
+        <div class="container">
+            <h2>All Jobs</h2>
+            <div class="search-filter">
+                <input type="text" placeholder="Search jobs..." id="searchInput">
+                <select id="categoryFilter">
+                    <option value="">All Categories</option>
+                    <option>IT</option>
+                    <option>Marketing</option>
+                    <option>Finance</option>
+                </select>
+            </div>
+            <div class="jobs-grid" id="allJobs">
+                <!-- JavaScript will load jobs here -->
+            </div>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
